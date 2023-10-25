@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading... Will not render the loading bubbles 1`] = `
+<div
+  id="loadingcontainer"
+  style={
+    {
+      "marginTop": 100,
+    }
+  }
+>
+  <Memo(ForwardRef(DownloadDoneIcon)) />
+</div>
+`;
+
+exports[`Loading... Will render the loading bubbles 1`] = `
+<div
+  id="loadingcontainer"
+  style={
+    {
+      "marginTop": 100,
+    }
+  }
+>
+  <div
+    className="bubbles A"
+  />
+  <div
+    className="bubbles B"
+  />
+  <div
+    className="bubbles C"
+  />
+</div>
+`;
+
+exports[`The Profile Link will render for a non authenticated user 1`] = `
+<ForwardRef(Link)
+  component={
+    {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": {
+        "innerRef": [Function],
+        "onClick": [Function],
+        "replace": [Function],
+        "target": [Function],
+        "to": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  onClick={[Function]}
+  onMouseDown={[Function]}
+  to=""
+  underline="none"
+>
+  Link title
+</ForwardRef(Link)>
+`;
+
+exports[`The Profile Link will render for an authenticated user 1`] = `
+<ForwardRef(Link)
+  component={
+    {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": {
+        "innerRef": [Function],
+        "onClick": [Function],
+        "replace": [Function],
+        "target": [Function],
+        "to": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  onClick={[Function]}
+  onMouseDown={[Function]}
+  to="/profile/2"
+  underline="none"
+>
+  Link title
+</ForwardRef(Link)>
+`;
+
+exports[`The UserListItem will render 1`] = `
+<ForwardRef(ListItem)
+  key="test userId"
+>
+  <ForwardRef(ListItemAvatar)>
+    <ForwardRef(Avatar)
+      sx={
+        {
+          "bgcolor": "#1d7b20",
+          "height": 26,
+          "width": 26,
+        }
+      }
+    >
+      <Memo(ForwardRef(GitHubIcon))
+        style={
+          {
+            "fontSize": 10,
+          }
+        }
+      />
+    </ForwardRef(Avatar)>
+  </ForwardRef(ListItemAvatar)>
+  <ProfileLink
+    authenticated={true}
+    closePin={[MockFunction]}
+    displayLogin={[MockFunction]}
+    title="test displayName"
+    userId="test userId"
+  />
+</ForwardRef(ListItem)>
+`;
+
+exports[`The user joined date component will render 1`] = `
+<ForwardRef(Typography)
+  sx={
+    {
+      "mt": 1,
+    }
+  }
+  variant="subtitle2"
+>
+  Joined
+   
+  January 2001
+</ForwardRef(Typography)>
+`;

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The sign in component will render for Guest users on homepage 1`] = `
+<Fragment>
+  <ProviderButton
+    key="twitter"
+    service="twitter"
+  />
+  <ProviderButton
+    key="google"
+    service="google"
+  />
+  <ProviderButton
+    key="github"
+    service="github"
+  />
+</Fragment>
+`;
+
+exports[`The sign in component will render for cover page 1`] = `
+<Fragment>
+  <ForwardRef(Button)
+    id="guestbutton"
+    onClick={[Function]}
+    startIcon={
+      <Memo
+        style={
+          {
+            "fontSize": 25,
+          }
+        }
+      />
+    }
+    variant="outlined"
+  >
+    Continue As Guest        
+  </ForwardRef(Button)>
+  <ProviderButton
+    key="twitter"
+    service="twitter"
+  />
+  <ProviderButton
+    key="google"
+    service="google"
+  />
+  <ProviderButton
+    key="github"
+    service="github"
+  />
+</Fragment>
+`;
+
+exports[`The sign in component will render only available providers 1`] = `
+<Fragment>
+  <ForwardRef(Button)
+    id="guestbutton"
+    onClick={[Function]}
+    startIcon={
+      <Memo
+        style={
+          {
+            "fontSize": 25,
+          }
+        }
+      />
+    }
+    variant="outlined"
+  >
+    Continue As Guest        
+  </ForwardRef(Button)>
+  <ProviderButton
+    key="github"
+    service="github"
+  />
+</Fragment>
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Menu component will render for an authenticated user 1`] = `
+<div
+  className="menu"
+>
+  <Search
+    closeSearch={[Function]}
+    isShowing={false}
+    openSearch={[Function]}
+    pathname="/"
+  />
+  <Brand />
+  <CollapsibleMenu
+    menuClicked={[Function]}
+    pathname="/"
+    service="twitter"
+  />
+</div>
+`;
+
+exports[`The Menu component will render for users authenticated as guest 1`] = `
+<div
+  className="menu"
+>
+  <Search
+    closeSearch={[Function]}
+    isShowing={false}
+    openSearch={[Function]}
+    pathname="/"
+  />
+  <Brand />
+  <Login
+    showSignIn={[Function]}
+  />
+  <SignIn
+    removeSignin={[Function]}
+  />
+</div>
+`;
+
+exports[`The Menu component will render the Login 1`] = `
+<div
+  className="items login"
+>
+  <i
+    aria-hidden="true"
+    className="fa fa-sign-in"
+    onClick={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`The Menu component will render the brand 1`] = `
+<div
+  className="brand"
+>
+  <a
+    href="https://github.com/Dereje1/Pinterest-Clone"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-pinterest"
+    />
+     Clone
+  </a>
+</div>
+`;

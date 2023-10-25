@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The comments window will render with comments 1`] = `
+<div
+  style={
+    {
+      "height": 30,
+      "overflowY": "auto",
+      "paddingBottom": 3,
+      "width": 20,
+    }
+  }
+>
+  <div
+    style={
+      {
+        "bottom": 10,
+        "display": "flex",
+        "justifyContent": "space-around",
+        "left": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "position": "absolute",
+        "right": 0,
+        "width": 300,
+      }
+    }
+  >
+    <ForwardRef(Fab)
+      aria-label="close"
+      color="error"
+      onClick={[MockFunction]}
+    >
+      <Memo(ForwardRef(CloseIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+    <ForwardRef(Fab)
+      aria-label="pinners"
+      color="success"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <Memo(ForwardRef(StarBorderIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+    <ForwardRef(Fab)
+      aria-label="add"
+      color="primary"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <Memo(ForwardRef(AddIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+  </div>
+  <div
+    style={
+      {
+        "alignItems": "center",
+        "background": "white",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+        "position": "sticky",
+        "top": 0,
+      }
+    }
+  >
+    <div
+      style={
+        {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "flex-start",
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <ForwardRef(Avatar)
+        alt="imgDescription id-1"
+        id="thumbnail"
+        onClick={[MockFunction]}
+        src="imgLink id-1"
+        style={
+          {
+            "cursor": "pointer",
+            "height": 56,
+            "width": 56,
+          }
+        }
+      />
+      <TagsArray
+        closePin={[MockFunction]}
+        commentFormIsOpen={false}
+        pinInformation={
+          {
+            "AIgenerated": false,
+            "_id": "1",
+            "comments": [
+              {
+                "_id": "Comment_id_1",
+                "comment": "Test comment",
+                "createdAt": "2021-07-28T16:30:48.572Z",
+                "displayName": "tester-displayName",
+                "userId": "Comment_User_Id_1",
+              },
+            ],
+            "createdAt": "2020-12-25T00:00:00.000+00:00",
+            "hasSaved": false,
+            "imgDescription": "imgDescription id-1",
+            "imgLink": "imgLink id-1",
+            "owner": {
+              "name": "owner id-1",
+              "service": "google",
+              "userId": "1",
+            },
+            "owns": false,
+            "savedBy": [
+              {
+                "name": "savedBy - id-1",
+                "service": "google",
+                "userId": "1",
+              },
+              {
+                "name": "savedBy - id-1",
+                "service": "github",
+                "userId": "1",
+              },
+            ],
+            "tags": [
+              {
+                "_id": "tag_id_1",
+                "tag": "tag 1",
+              },
+              {
+                "_id": "tag_id_2",
+                "tag": "tag 2",
+              },
+            ],
+          }
+        }
+        updateTags={[MockFunction]}
+      />
+    </div>
+  </div>
+  <ForwardRef(Card)
+    raised={true}
+    sx={
+      {
+        "margin": 1,
+      }
+    }
+  >
+    <ForwardRef(CardContent)>
+      <div
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+          }
+        }
+      >
+        <ProfileLink
+          authenticated={true}
+          closePin={[MockFunction]}
+          displayLogin={[MockFunction]}
+          title={
+            <ForwardRef(Typography)
+              sx={
+                {
+                  "color": "#3752ff",
+                  "fontWeight": "bold",
+                }
+              }
+              variant="subtitle1"
+            >
+              tester-displayName
+            </ForwardRef(Typography)>
+          }
+          userId="Comment_User_Id_1"
+        />
+        <ForwardRef(Typography)
+          color="text.secondary"
+          sx={
+            {
+              "fontSize": 12,
+              "ml": 1,
+            }
+          }
+        >
+          - 28 Jul 2021
+        </ForwardRef(Typography)>
+      </div>
+      <ForwardRef(Typography)
+        color="text.secondary"
+        sx={
+          {
+            "mb": 1.5,
+          }
+        }
+      >
+        Test comment
+      </ForwardRef(Typography)>
+    </ForwardRef(CardContent)>
+  </ForwardRef(Card)>
+  <div
+    style={
+      {
+        "height": 65,
+        "width": "100%",
+      }
+    }
+  />
+  <PinnersDialog
+    authenticated={true}
+    displayLogin={[MockFunction]}
+    onCloseDialog={[Function]}
+    onClosePin={[MockFunction]}
+    open={false}
+    pinnersList={
+      [
+        {
+          "name": "savedBy - id-1",
+          "service": "google",
+          "userId": "1",
+        },
+        {
+          "name": "savedBy - id-1",
+          "service": "github",
+          "userId": "1",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`The comments window will render with no comments for authenticated users 1`] = `
+<div
+  style={
+    {
+      "height": 30,
+      "overflowY": "auto",
+      "paddingBottom": 3,
+      "width": 20,
+    }
+  }
+>
+  <div
+    style={
+      {
+        "bottom": 10,
+        "display": "flex",
+        "justifyContent": "space-around",
+        "left": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "position": "absolute",
+        "right": 0,
+        "width": 300,
+      }
+    }
+  >
+    <ForwardRef(Fab)
+      aria-label="close"
+      color="error"
+      onClick={[MockFunction]}
+    >
+      <Memo(ForwardRef(CloseIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+    <ForwardRef(Fab)
+      aria-label="pinners"
+      color="success"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <Memo(ForwardRef(StarBorderIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+    <ForwardRef(Fab)
+      aria-label="add"
+      color="primary"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <Memo(ForwardRef(AddIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+  </div>
+  <div
+    style={
+      {
+        "alignItems": "center",
+        "background": "white",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+        "position": "sticky",
+        "top": 0,
+      }
+    }
+  >
+    <div
+      style={
+        {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "flex-start",
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <ForwardRef(Avatar)
+        alt="imgDescription id-2"
+        id="thumbnail"
+        onClick={[MockFunction]}
+        src="imgLink id-2"
+        style={
+          {
+            "cursor": "pointer",
+            "height": 56,
+            "width": 56,
+          }
+        }
+      />
+      <TagsArray
+        closePin={[MockFunction]}
+        commentFormIsOpen={false}
+        pinInformation={
+          {
+            "AIgenerated": false,
+            "_id": "2",
+            "comments": [],
+            "createdAt": "2020-12-25T00:00:00.000+00:00",
+            "hasSaved": true,
+            "imgDescription": "imgDescription id-2",
+            "imgLink": "imgLink id-2",
+            "owner": {
+              "name": "owner id-2",
+              "service": "twitter",
+              "userId": "2",
+            },
+            "owns": false,
+            "savedBy": [
+              {
+                "name": "savedBy - id-2",
+                "service": "google",
+                "userId": "2",
+              },
+              {
+                "name": "savedBy - id-2git",
+                "service": "github",
+                "userId": "2",
+              },
+            ],
+            "tags": [
+              {
+                "_id": "tag_id_1",
+                "tag": "tag 1",
+              },
+            ],
+          }
+        }
+        updateTags={[MockFunction]}
+      />
+    </div>
+  </div>
+  <ForwardRef(Card)
+    raised={true}
+    sx={
+      {
+        "margin": 1,
+      }
+    }
+  >
+    <ForwardRef(CardContent)>
+      <ForwardRef(Typography)
+        color="text.secondary"
+        sx={
+          {
+            "margin": "auto",
+          }
+        }
+        variant="h6"
+      >
+        Be the first to write a comment on imgDescription id-2...
+      </ForwardRef(Typography)>
+    </ForwardRef(CardContent)>
+  </ForwardRef(Card)>
+  <PinnersDialog
+    authenticated={true}
+    displayLogin={[MockFunction]}
+    onCloseDialog={[Function]}
+    onClosePin={[MockFunction]}
+    open={false}
+    pinnersList={
+      [
+        {
+          "name": "savedBy - id-2",
+          "service": "google",
+          "userId": "2",
+        },
+        {
+          "name": "savedBy - id-2git",
+          "service": "github",
+          "userId": "2",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`The comments window will render with no comments for unauthenticated users 1`] = `
+<div
+  style={
+    {
+      "height": 30,
+      "overflowY": "auto",
+      "paddingBottom": 3,
+      "width": 20,
+    }
+  }
+>
+  <div
+    style={
+      {
+        "bottom": 10,
+        "display": "flex",
+        "justifyContent": "space-around",
+        "left": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "position": "absolute",
+        "right": 0,
+        "width": 300,
+      }
+    }
+  >
+    <ForwardRef(Fab)
+      aria-label="close"
+      color="error"
+      onClick={[MockFunction]}
+    >
+      <Memo(ForwardRef(CloseIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+    <ForwardRef(Fab)
+      aria-label="pinners"
+      color="success"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <Memo(ForwardRef(StarBorderIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+    <ForwardRef(Fab)
+      aria-label="add"
+      color="primary"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <Memo(ForwardRef(AddIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+  </div>
+  <div
+    style={
+      {
+        "alignItems": "center",
+        "background": "white",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+        "position": "sticky",
+        "top": 0,
+      }
+    }
+  >
+    <div
+      style={
+        {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "flex-start",
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <ForwardRef(Avatar)
+        alt="imgDescription id-2"
+        id="thumbnail"
+        onClick={[MockFunction]}
+        src="imgLink id-2"
+        style={
+          {
+            "cursor": "pointer",
+            "height": 56,
+            "width": 56,
+          }
+        }
+      />
+      <TagsArray
+        closePin={[MockFunction]}
+        commentFormIsOpen={false}
+        pinInformation={
+          {
+            "AIgenerated": false,
+            "_id": "2",
+            "comments": [],
+            "createdAt": "2020-12-25T00:00:00.000+00:00",
+            "hasSaved": true,
+            "imgDescription": "imgDescription id-2",
+            "imgLink": "imgLink id-2",
+            "owner": {
+              "name": "owner id-2",
+              "service": "twitter",
+              "userId": "2",
+            },
+            "owns": false,
+            "savedBy": [
+              {
+                "name": "savedBy - id-2",
+                "service": "google",
+                "userId": "2",
+              },
+              {
+                "name": "savedBy - id-2git",
+                "service": "github",
+                "userId": "2",
+              },
+            ],
+            "tags": [
+              {
+                "_id": "tag_id_1",
+                "tag": "tag 1",
+              },
+            ],
+          }
+        }
+        updateTags={[MockFunction]}
+      />
+    </div>
+  </div>
+  <ForwardRef(Card)
+    raised={true}
+    sx={
+      {
+        "margin": 1,
+      }
+    }
+  >
+    <ForwardRef(CardContent)>
+      <ForwardRef(Typography)
+        color="text.secondary"
+        sx={
+          {
+            "margin": "auto",
+          }
+        }
+        variant="h6"
+      >
+        Login and be the first to write a comment on imgDescription id-2...
+      </ForwardRef(Typography)>
+    </ForwardRef(CardContent)>
+  </ForwardRef(Card)>
+  <PinnersDialog
+    authenticated={false}
+    displayLogin={[MockFunction]}
+    onCloseDialog={[Function]}
+    onClosePin={[MockFunction]}
+    open={false}
+    pinnersList={
+      [
+        {
+          "name": "savedBy - id-2",
+          "service": "google",
+          "userId": "2",
+        },
+        {
+          "name": "savedBy - id-2git",
+          "service": "github",
+          "userId": "2",
+        },
+      ]
+    }
+  />
+</div>
+`;

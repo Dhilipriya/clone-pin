@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The pinners dialog will render 1`] = `
+<ForwardRef(Dialog)
+  PaperProps={
+    {
+      "sx": {
+        "position": "fixed",
+        "top": 0,
+      },
+    }
+  }
+  disableAutoFocus={true}
+  onClose={[MockFunction]}
+  open={true}
+>
+  <ForwardRef(List)
+    subheader={
+      <ForwardRef(ListSubheader)
+        sx={
+          {
+            "textAlign": "center",
+          }
+        }
+      >
+        Pinners
+      </ForwardRef(ListSubheader)>
+    }
+    sx={
+      {
+        "pt": 0,
+      }
+    }
+  >
+    <UserListItem
+      key="1"
+      profileLinkProps={
+        {
+          "authenticated": false,
+          "closePin": [Function],
+          "displayLogin": [MockFunction],
+          "title": <ForwardRef(ListItemText)
+            primary="savedBy - id-1"
+            primaryTypographyProps={
+              {
+                "color": "#3752ff",
+                "fontWeight": "bold",
+              }
+            }
+          />,
+          "userId": "1",
+        }
+      }
+      providerIcons={
+        {
+          "github": {
+            "color": "#1d7b20",
+            "icon": <Memo
+              style={
+                {
+                  "fontSize": 20,
+                }
+              }
+            />,
+          },
+          "google": {
+            "color": "#4285F4",
+            "icon": <Memo
+              style={
+                {
+                  "fontSize": 20,
+                }
+              }
+            />,
+          },
+          "twitter": {
+            "color": "#1DA1F2",
+            "icon": <Memo
+              style={
+                {
+                  "fontSize": 20,
+                }
+              }
+            />,
+          },
+        }
+      }
+      service="google"
+    />
+    <UserListItem
+      key="1"
+      profileLinkProps={
+        {
+          "authenticated": false,
+          "closePin": [Function],
+          "displayLogin": [MockFunction],
+          "title": <ForwardRef(ListItemText)
+            primary="savedBy - id-1"
+            primaryTypographyProps={
+              {
+                "color": "#3752ff",
+                "fontWeight": "bold",
+              }
+            }
+          />,
+          "userId": "1",
+        }
+      }
+      providerIcons={
+        {
+          "github": {
+            "color": "#1d7b20",
+            "icon": <Memo
+              style={
+                {
+                  "fontSize": 20,
+                }
+              }
+            />,
+          },
+          "google": {
+            "color": "#4285F4",
+            "icon": <Memo
+              style={
+                {
+                  "fontSize": 20,
+                }
+              }
+            />,
+          },
+          "twitter": {
+            "color": "#1DA1F2",
+            "icon": <Memo
+              style={
+                {
+                  "fontSize": 20,
+                }
+              }
+            />,
+          },
+        }
+      }
+      service="github"
+    />
+  </ForwardRef(List)>
+</ForwardRef(Dialog)>
+`;

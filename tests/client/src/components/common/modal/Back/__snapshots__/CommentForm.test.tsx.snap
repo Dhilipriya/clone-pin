@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`will render the form to add comments 1`] = `
+<div
+  style={
+    {
+      "alignItems": "flex-end",
+      "display": "flex",
+      "flexDirection": "column",
+      "margin": 5,
+    }
+  }
+>
+  <ForwardRef(TextField)
+    autoFocus={true}
+    fullWidth={true}
+    id="comment_form"
+    label="Add a comment"
+    multiline={true}
+    onChange={[Function]}
+    rows={3}
+    sx={
+      {
+        "caretColor": "black",
+        "marginTop": 2,
+      }
+    }
+    type="text"
+    value=""
+  />
+  <div
+    style={
+      {
+        "marginTop": 1,
+      }
+    }
+  >
+    <ForwardRef(Button)
+      onClick={[MockFunction]}
+    >
+      Cancel
+    </ForwardRef(Button)>
+    <ForwardRef(Button)
+      onClick={[Function]}
+    >
+      Submit
+    </ForwardRef(Button)>
+  </div>
+</div>
+`;

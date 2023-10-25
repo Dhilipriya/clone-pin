@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The tags form component will render 1`] = `
+<div
+  style={
+    {
+      "alignItems": "flex-end",
+      "display": "flex",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "width": 200,
+    }
+  }
+>
+  <ForwardRef(Autocomplete)
+    autoComplete={true}
+    disableClearable={true}
+    filterOptions={[Function]}
+    freeSolo={true}
+    fullWidth={true}
+    id="free-solo-tags"
+    inputValue=""
+    onBlur={[MockFunction]}
+    onInputChange={[Function]}
+    onKeyDown={[Function]}
+    options={
+      [
+        "SUGGESTED TAG 1",
+        "SUGGESTED TAG 2",
+      ]
+    }
+    renderInput={[Function]}
+  />
+  <Memo(ForwardRef(DoneIcon))
+    color="success"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    style={
+      {
+        "cursor": "pointer",
+      }
+    }
+  />
+</div>
+`;

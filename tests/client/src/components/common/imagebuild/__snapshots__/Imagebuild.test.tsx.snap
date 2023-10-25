@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The ImageBuild component will render.... 1`] = `
+<Fragment>
+  <div
+    id="mainframe"
+  >
+    <InfiniteScroll
+      dataLength={3}
+      hasMore={false}
+      loader={<div />}
+      next={[Function]}
+    >
+      <MasonryPins
+        deletePin={[MockFunction]}
+        layoutComplete={[Function]}
+        onBrokenImage={[Function]}
+        pinEnlarge={[Function]}
+        pinImage={[Function]}
+        pins={
+          [
+            {
+              "AIgenerated": false,
+              "_id": "1",
+              "comments": [
+                {
+                  "_id": "Comment_id_1",
+                  "comment": "Test comment",
+                  "createdAt": "2021-07-28T16:30:48.572Z",
+                  "displayName": "tester-displayName",
+                  "userId": "Comment_User_Id_1",
+                },
+              ],
+              "createdAt": "2020-12-25T00:00:00.000+00:00",
+              "hasSaved": false,
+              "imgDescription": "imgDescription id-1",
+              "imgLink": "imgLink id-1",
+              "owner": {
+                "name": "owner id-1",
+                "service": "google",
+                "userId": "1",
+              },
+              "owns": false,
+              "savedBy": [
+                {
+                  "name": "savedBy - id-1",
+                  "service": "google",
+                  "userId": "1",
+                },
+                {
+                  "name": "savedBy - id-1",
+                  "service": "github",
+                  "userId": "1",
+                },
+              ],
+              "tags": [
+                {
+                  "_id": "tag_id_1",
+                  "tag": "tag 1",
+                },
+                {
+                  "_id": "tag_id_2",
+                  "tag": "tag 2",
+                },
+              ],
+            },
+            {
+              "AIgenerated": false,
+              "_id": "2",
+              "comments": [],
+              "createdAt": "2020-12-25T00:00:00.000+00:00",
+              "hasSaved": true,
+              "imgDescription": "imgDescription id-2",
+              "imgLink": "imgLink id-2",
+              "owner": {
+                "name": "owner id-2",
+                "service": "twitter",
+                "userId": "2",
+              },
+              "owns": false,
+              "savedBy": [
+                {
+                  "name": "savedBy - id-2",
+                  "service": "google",
+                  "userId": "2",
+                },
+                {
+                  "name": "savedBy - id-2git",
+                  "service": "github",
+                  "userId": "2",
+                },
+              ],
+              "tags": [
+                {
+                  "_id": "tag_id_1",
+                  "tag": "tag 1",
+                },
+              ],
+            },
+            {
+              "AIgenerated": false,
+              "_id": "3",
+              "comments": [],
+              "createdAt": "2020-12-25T00:00:00.000+00:00",
+              "hasSaved": false,
+              "imgDescription": "imgDescription id-3",
+              "imgLink": "imgLink id-3",
+              "owner": {
+                "name": "owner id-3",
+                "service": "github",
+                "userId": "3",
+              },
+              "owns": true,
+              "savedBy": [
+                {
+                  "name": "savedBy - id-3",
+                  "service": "google",
+                  "userId": "3",
+                },
+                {
+                  "name": "savedBy - id-3",
+                  "service": "github",
+                  "userId": "3",
+                },
+              ],
+              "tags": [],
+            },
+          ]
+        }
+      />
+    </InfiniteScroll>
+  </div>
+  <Loading
+    imagesLoaded={false}
+    marginTop={0}
+    ready={true}
+  />
+</Fragment>
+`;

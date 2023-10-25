@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Mypins component landing page will render bubbles until ready 1`] = `<Loading />`;
+
+exports[`The Mypins component landing page will render message if no pins created found 1`] = `
+<Fragment>
+  <div
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 80,
+        "width": 300,
+      }
+    }
+  >
+    <UserInfo
+      nameChangeFormIsShowing={false}
+      showNameChangeForm={[Function]}
+      submitNameChange={[Function]}
+      user={
+        {
+          "authenticated": true,
+          "createdAt": "stub join date",
+          "displayName": "stub displayname",
+          "providers": {
+            "github": true,
+            "google": true,
+            "twitter": true,
+          },
+          "service": "twitter",
+          "userId": "a stub user id",
+          "userIp": "stub Ip",
+          "username": "stub username",
+        }
+      }
+    />
+    <div
+      style={
+        {
+          "marginRight": 18,
+        }
+      }
+    >
+      <UserPinsSelector
+        displaySetting="created"
+        setDisplaySetting={[Function]}
+      />
+    </div>
+    <ForwardRef(Fab)
+      aria-label="add"
+      color="default"
+      id="createpin"
+      onClick={[Function]}
+      sx={
+        {
+          "marginTop": 1,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Memo(ForwardRef(AddIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+  </div>
+  <ForwardRef(Box)
+    sx={
+      {
+        "backgroundColor": "#eeeeee",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 10,
+        "padding": 2,
+      }
+    }
+  >
+    <ForwardRef(Typography)
+      style={
+        {
+          "textAlign": "center",
+        }
+      }
+      variant="h4"
+    >
+      Welcome!
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)
+      textAlign="center"
+      variant="h6"
+    >
+      You have not created any pins, you can create some by clicking on the button above
+    </ForwardRef(Typography)>
+  </ForwardRef(Box)>
+</Fragment>
+`;
+
+exports[`The Mypins component landing page will render message if no pins saved found 1`] = `
+<Fragment>
+  <div
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 80,
+        "width": 300,
+      }
+    }
+  >
+    <UserInfo
+      nameChangeFormIsShowing={false}
+      showNameChangeForm={[Function]}
+      submitNameChange={[Function]}
+      user={
+        {
+          "authenticated": true,
+          "createdAt": "stub join date",
+          "displayName": "stub displayname",
+          "providers": {
+            "github": true,
+            "google": true,
+            "twitter": true,
+          },
+          "service": "twitter",
+          "userId": "a stub user id",
+          "userIp": "stub Ip",
+          "username": "stub username",
+        }
+      }
+    />
+    <div
+      style={
+        {
+          "marginRight": 18,
+        }
+      }
+    >
+      <UserPinsSelector
+        displaySetting="saved"
+        setDisplaySetting={[Function]}
+      />
+    </div>
+    <ForwardRef(Fab)
+      aria-label="add"
+      color="default"
+      id="createpin"
+      onClick={[Function]}
+      sx={
+        {
+          "marginTop": 1,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Memo(ForwardRef(AddIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+  </div>
+  <ForwardRef(Box)
+    sx={
+      {
+        "backgroundColor": "#eeeeee",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 10,
+        "padding": 2,
+      }
+    }
+  >
+    <ForwardRef(Typography)
+      textAlign="center"
+      variant="h6"
+    >
+      You have no pins saved, you can save some from the
+       
+      <Link
+        to="/"
+      >
+        home
+      </Link>
+       
+      page
+    </ForwardRef(Typography)>
+  </ForwardRef(Box)>
+</Fragment>
+`;
+
+exports[`The Mypins component landing page will render pins if found 1`] = `
+<Fragment>
+  <div
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 80,
+        "width": 300,
+      }
+    }
+  >
+    <UserInfo
+      nameChangeFormIsShowing={false}
+      showNameChangeForm={[Function]}
+      submitNameChange={[Function]}
+      user={
+        {
+          "authenticated": true,
+          "createdAt": "stub join date",
+          "displayName": "stub displayname",
+          "providers": {
+            "github": true,
+            "google": true,
+            "twitter": true,
+          },
+          "service": "twitter",
+          "userId": "a stub user id",
+          "userIp": "stub Ip",
+          "username": "stub username",
+        }
+      }
+    />
+    <div
+      style={
+        {
+          "marginRight": 18,
+        }
+      }
+    >
+      <UserPinsSelector
+        displaySetting="created"
+        setDisplaySetting={[Function]}
+      />
+    </div>
+    <ForwardRef(Fab)
+      aria-label="add"
+      color="default"
+      id="createpin"
+      onClick={[Function]}
+      sx={
+        {
+          "marginTop": 1,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Memo(ForwardRef(AddIcon))
+        fontSize="large"
+      />
+    </ForwardRef(Fab)>
+  </div>
+  <ImageBuild
+    deletePin={[Function]}
+    displayBrokenImage={true}
+    pinImage={false}
+    pinList={
+      [
+        {
+          "AIgenerated": false,
+          "_id": "3",
+          "comments": [],
+          "createdAt": "2020-12-25T00:00:00.000+00:00",
+          "hasSaved": false,
+          "imgDescription": "imgDescription id-3",
+          "imgLink": "imgLink id-3",
+          "owner": {
+            "name": "owner id-3",
+            "service": "github",
+            "userId": "3",
+          },
+          "owns": true,
+          "savedBy": [
+            {
+              "name": "savedBy - id-3",
+              "service": "google",
+              "userId": "3",
+            },
+            {
+              "name": "savedBy - id-3",
+              "service": "github",
+              "userId": "3",
+            },
+          ],
+          "tags": [],
+        },
+      ]
+    }
+    ready={true}
+    user={
+      {
+        "authenticated": true,
+        "createdAt": "stub join date",
+        "displayName": "stub displayname",
+        "providers": {
+          "github": true,
+          "google": true,
+          "twitter": true,
+        },
+        "service": "twitter",
+        "userId": "a stub user id",
+        "userIp": "stub Ip",
+        "username": "stub username",
+      }
+    }
+  />
+</Fragment>
+`;

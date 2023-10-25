@@ -1,0 +1,23 @@
+#dependencies
+/node_modules
+
+
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+codecov
+
+# production
+/build
+
+#private
+.env
+nodemon.json
+/myscripts
+.DS_Store
+/server_build
+google_vision_api_key.json
+/client/dist

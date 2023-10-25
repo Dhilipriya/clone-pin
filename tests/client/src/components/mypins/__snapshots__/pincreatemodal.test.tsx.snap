@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The pin creation modal will render for generating AI images selection 1`] = `
+<Fragment>
+  <ForwardRef(Dialog)
+    open={true}
+    sx={
+      {
+        "& .MuiDialog-container": {
+          "& .MuiPaper-root": {
+            "maxWidth": 341.3333333333333,
+            "width": "100%",
+          },
+        },
+      }
+    }
+  >
+    <ForwardRef(DialogTitle)
+      id="pin-create-dialog-title"
+    >
+      Create pin: AI
+      <ForwardRef(IconButton)
+        aria-label="settings"
+        id="close-pin-create-modal"
+        onClick={[Function]}
+        sx={
+          {
+            "color": [Function],
+            "position": "absolute",
+            "right": 8,
+            "top": 8,
+          }
+        }
+      >
+        <Memo(ForwardRef(CancelIcon))
+          style={
+            {
+              "color": "#3a1c1cde",
+              "fontSize": "1.5em",
+            }
+          }
+        />
+      </ForwardRef(IconButton)>
+    </ForwardRef(DialogTitle)>
+    <ForwardRef(Card)
+      sx={
+        {
+          "width": 341.3333333333333,
+        }
+      }
+    >
+      <ForwardRef(CardHeader)
+        action={
+          <MediaSelect
+            handleMediaChange={[Function]}
+            mediaType="AI"
+            totalAiGenratedImages={1}
+          />
+        }
+      />
+      <div
+        style={
+          {
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <ForwardRef(CardMedia)
+          component="img"
+          id="new-pin-image"
+          image="/load-error.png"
+          key="1"
+          onError={[Function]}
+          onLoad={[Function]}
+          sx={
+            {
+              "height": 240,
+              "objectFit": "contain",
+            }
+          }
+        />
+        <SavePin
+          isDescriptionError={true}
+          isImageError={true}
+          isImageLoaded={false}
+          picPreview=""
+          savePic={[Function]}
+        />
+      </div>
+      <ForwardRef(CardActions)>
+        <div
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "height": "25vh",
+              "justifyContent": "space-evenly",
+              "width": "100%",
+            }
+          }
+        >
+          <ForwardRef(TextField)
+            color="success"
+            disabled={false}
+            error={true}
+            id="pin-description"
+            label="Describe what you want in detail..."
+            maxRows={3}
+            minRows={3}
+            multiline={true}
+            onChange={[Function]}
+            style={
+              {
+                "margin": "1.5vh",
+                "width": "100%",
+              }
+            }
+            value=""
+            variant="outlined"
+          />
+          <MediaButtonHandler
+            AIimageStatus={
+              {
+                "_id": null,
+                "generatedImage": false,
+                "generatingImage": false,
+              }
+            }
+            description=""
+            handleAIimage={[Function]}
+            handleLinkImage={[Function]}
+            handleUploadedImage={[Function]}
+            isError={true}
+            mediaType="AI"
+            picPreview=""
+            showAIResetDialog={[Function]}
+            totalAiGenratedImages={1}
+          />
+        </div>
+      </ForwardRef(CardActions)>
+    </ForwardRef(Card)>
+  </ForwardRef(Dialog)>
+</Fragment>
+`;
+
+exports[`The pin creation modal will render for links to images 1`] = `
+<Fragment>
+  <ForwardRef(Dialog)
+    open={true}
+    sx={
+      {
+        "& .MuiDialog-container": {
+          "& .MuiPaper-root": {
+            "maxWidth": 341.3333333333333,
+            "width": "100%",
+          },
+        },
+      }
+    }
+  >
+    <ForwardRef(DialogTitle)
+      id="pin-create-dialog-title"
+    >
+      Create pin: Web link
+      <ForwardRef(IconButton)
+        aria-label="settings"
+        id="close-pin-create-modal"
+        onClick={[Function]}
+        sx={
+          {
+            "color": [Function],
+            "position": "absolute",
+            "right": 8,
+            "top": 8,
+          }
+        }
+      >
+        <Memo(ForwardRef(CancelIcon))
+          style={
+            {
+              "color": "#3a1c1cde",
+              "fontSize": "1.5em",
+            }
+          }
+        />
+      </ForwardRef(IconButton)>
+    </ForwardRef(DialogTitle)>
+    <ForwardRef(Card)
+      sx={
+        {
+          "width": 341.3333333333333,
+        }
+      }
+    >
+      <ForwardRef(CardHeader)
+        action={
+          <MediaSelect
+            handleMediaChange={[Function]}
+            mediaType="link"
+            totalAiGenratedImages={1}
+          />
+        }
+      />
+      <div
+        style={
+          {
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <ForwardRef(CardMedia)
+          component="img"
+          id="new-pin-image"
+          image="/load-error.png"
+          key="0"
+          onError={[Function]}
+          onLoad={[Function]}
+          sx={
+            {
+              "height": 240,
+              "objectFit": "contain",
+            }
+          }
+        />
+        <SavePin
+          isDescriptionError={true}
+          isImageError={true}
+          isImageLoaded={false}
+          picPreview=""
+          savePic={[Function]}
+        />
+      </div>
+      <ForwardRef(CardActions)>
+        <div
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "height": "25vh",
+              "justifyContent": "space-evenly",
+              "width": "100%",
+            }
+          }
+        >
+          <ForwardRef(TextField)
+            color="success"
+            disabled={false}
+            error={true}
+            id="pin-description"
+            label="Description..."
+            maxRows={3}
+            minRows={3}
+            multiline={false}
+            onChange={[Function]}
+            style={
+              {
+                "margin": "1.5vh",
+                "width": "100%",
+              }
+            }
+            value=""
+            variant="standard"
+          />
+          <MediaButtonHandler
+            AIimageStatus={
+              {
+                "_id": null,
+                "generatedImage": false,
+                "generatingImage": false,
+              }
+            }
+            description=""
+            handleAIimage={[Function]}
+            handleLinkImage={[Function]}
+            handleUploadedImage={[Function]}
+            isError={true}
+            mediaType="link"
+            picPreview=""
+            showAIResetDialog={[Function]}
+            totalAiGenratedImages={1}
+          />
+        </div>
+      </ForwardRef(CardActions)>
+    </ForwardRef(Card)>
+  </ForwardRef(Dialog)>
+</Fragment>
+`;
+
+exports[`The pin creation modal will render for uploading images 1`] = `
+<Fragment>
+  <ForwardRef(Dialog)
+    open={true}
+    sx={
+      {
+        "& .MuiDialog-container": {
+          "& .MuiPaper-root": {
+            "maxWidth": 341.3333333333333,
+            "width": "100%",
+          },
+        },
+      }
+    }
+  >
+    <ForwardRef(DialogTitle)
+      id="pin-create-dialog-title"
+    >
+      Create pin: File/device
+      <ForwardRef(IconButton)
+        aria-label="settings"
+        id="close-pin-create-modal"
+        onClick={[Function]}
+        sx={
+          {
+            "color": [Function],
+            "position": "absolute",
+            "right": 8,
+            "top": 8,
+          }
+        }
+      >
+        <Memo(ForwardRef(CancelIcon))
+          style={
+            {
+              "color": "#3a1c1cde",
+              "fontSize": "1.5em",
+            }
+          }
+        />
+      </ForwardRef(IconButton)>
+    </ForwardRef(DialogTitle)>
+    <ForwardRef(Card)
+      sx={
+        {
+          "width": 341.3333333333333,
+        }
+      }
+    >
+      <ForwardRef(CardHeader)
+        action={
+          <MediaSelect
+            handleMediaChange={[Function]}
+            mediaType="upload"
+            totalAiGenratedImages={1}
+          />
+        }
+      />
+      <div
+        style={
+          {
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <ForwardRef(CardMedia)
+          component="img"
+          id="new-pin-image"
+          image="/load-error.png"
+          key="1"
+          onError={[Function]}
+          onLoad={[Function]}
+          sx={
+            {
+              "height": 240,
+              "objectFit": "contain",
+            }
+          }
+        />
+        <SavePin
+          isDescriptionError={true}
+          isImageError={true}
+          isImageLoaded={false}
+          picPreview=""
+          savePic={[Function]}
+        />
+      </div>
+      <ForwardRef(CardActions)>
+        <div
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "height": "25vh",
+              "justifyContent": "space-evenly",
+              "width": "100%",
+            }
+          }
+        >
+          <ForwardRef(TextField)
+            color="success"
+            disabled={false}
+            error={true}
+            id="pin-description"
+            label="Description..."
+            maxRows={3}
+            minRows={3}
+            multiline={false}
+            onChange={[Function]}
+            style={
+              {
+                "margin": "1.5vh",
+                "width": "100%",
+              }
+            }
+            value=""
+            variant="standard"
+          />
+          <MediaButtonHandler
+            AIimageStatus={
+              {
+                "_id": null,
+                "generatedImage": false,
+                "generatingImage": false,
+              }
+            }
+            description=""
+            handleAIimage={[Function]}
+            handleLinkImage={[Function]}
+            handleUploadedImage={[Function]}
+            isError={true}
+            mediaType="upload"
+            picPreview=""
+            showAIResetDialog={[Function]}
+            totalAiGenratedImages={1}
+          />
+        </div>
+      </ForwardRef(CardActions)>
+    </ForwardRef(Card)>
+  </ForwardRef(Dialog)>
+</Fragment>
+`;

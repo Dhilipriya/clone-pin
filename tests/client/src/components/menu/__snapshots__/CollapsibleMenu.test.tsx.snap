@@ -1,0 +1,639 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The collapsible menu component will render for home 1`] = `
+<div>
+  <Memo(ForwardRef(MenuIcon))
+    fontSize="large"
+    onClick={[Function]}
+    sx={
+      {
+        "cursor": "pointer",
+        "marginLeft": 1,
+        "marginRight": 3,
+      }
+    }
+  />
+  <ForwardRef(Drawer)
+    anchor="right"
+    onClose={[Function]}
+    open={false}
+  >
+    <ForwardRef(Box)
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+      sx={
+        {
+          "width": 250,
+        }
+      }
+    >
+      <ForwardRef(MenuList)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="home"
+          onClick={[MockFunction]}
+          to="/"
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "",
+              }
+            }
+          >
+            <Memo(ForwardRef(HomeIcon))
+              fontSize="medium"
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#b20e0e",
+              }
+            }
+          >
+            Home
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="myPins"
+          onClick={[MockFunction]}
+          to="/pins"
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "#1DA1F2",
+              }
+            }
+          >
+            <Memo(ForwardRef(TwitterIcon))
+              style={
+                {
+                  "fontSize": 24,
+                }
+              }
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#5e6870",
+              }
+            }
+          >
+            Profile
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="users"
+          onClick={[MockFunction]}
+          to="/profile/63acc05f21481fa569a03b0b"
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "",
+              }
+            }
+          >
+            <Memo(ForwardRef(PeopleAltOutlinedIcon))
+              fontSize="medium"
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#5e6870",
+              }
+            }
+          >
+            Users
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="search"
+          onClick={[MockFunction]}
+          to=""
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "",
+              }
+            }
+          >
+            <Memo(ForwardRef(SearchIcon))
+              fontSize="medium"
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#5e6870",
+              }
+            }
+          >
+            Search
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="logout"
+          onClick={[MockFunction]}
+          to="/logout"
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "",
+              }
+            }
+          >
+            <Memo(ForwardRef(LogoutIcon))
+              fontSize="medium"
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#5e6870",
+              }
+            }
+          >
+            Logout
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+      </ForwardRef(MenuList)>
+    </ForwardRef(Box)>
+  </ForwardRef(Drawer)>
+</div>
+`;
+
+exports[`The collapsible menu component will render for my pins 1`] = `
+<div>
+  <Memo(ForwardRef(MenuIcon))
+    fontSize="large"
+    onClick={[Function]}
+    sx={
+      {
+        "cursor": "pointer",
+        "marginLeft": 1,
+        "marginRight": 3,
+      }
+    }
+  />
+  <ForwardRef(Drawer)
+    anchor="right"
+    onClose={[Function]}
+    open={false}
+  >
+    <ForwardRef(Box)
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+      sx={
+        {
+          "width": 250,
+        }
+      }
+    >
+      <ForwardRef(MenuList)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="home"
+          onClick={[MockFunction]}
+          to="/"
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "",
+              }
+            }
+          >
+            <Memo(ForwardRef(HomeIcon))
+              fontSize="medium"
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#5e6870",
+              }
+            }
+          >
+            Home
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="myPins"
+          onClick={[MockFunction]}
+          to="/pins"
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "#1DA1F2",
+              }
+            }
+          >
+            <Memo(ForwardRef(TwitterIcon))
+              style={
+                {
+                  "fontSize": 24,
+                }
+              }
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#b20e0e",
+              }
+            }
+          >
+            Profile
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="users"
+          onClick={[MockFunction]}
+          to="/profile/63acc05f21481fa569a03b0b"
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "",
+              }
+            }
+          >
+            <Memo(ForwardRef(PeopleAltOutlinedIcon))
+              fontSize="medium"
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#5e6870",
+              }
+            }
+          >
+            Users
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="search"
+          onClick={[MockFunction]}
+          to=""
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "",
+              }
+            }
+          >
+            <Memo(ForwardRef(SearchIcon))
+              fontSize="medium"
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#5e6870",
+              }
+            }
+          >
+            Search
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          component={
+            {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "exact": [Function],
+                "innerRef": [Function],
+                "isActive": [Function],
+                "location": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "sensitive": [Function],
+                "strict": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          key="logout"
+          onClick={[MockFunction]}
+          to="/logout"
+        >
+          <ForwardRef(ListItemIcon)
+            sx={
+              {
+                "color": "",
+              }
+            }
+          >
+            <Memo(ForwardRef(LogoutIcon))
+              fontSize="medium"
+            />
+          </ForwardRef(ListItemIcon)>
+          <ForwardRef(ListItemText)
+            primaryTypographyProps={
+              {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+              }
+            }
+            sx={
+              {
+                "color": "#5e6870",
+              }
+            }
+          >
+            Logout
+          </ForwardRef(ListItemText)>
+        </ForwardRef(MenuItem)>
+      </ForwardRef(MenuList)>
+    </ForwardRef(Box)>
+  </ForwardRef(Drawer)>
+</div>
+`;
